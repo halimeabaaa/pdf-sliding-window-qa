@@ -1,6 +1,6 @@
 import time
 from langchain.chains.retrieval_qa.base import RetrievalQA
-from my_sliding_window import *
+from sliding_window import *
 import os
 
 
