@@ -15,7 +15,7 @@ load_dotenv()
 wcs_cluster_url = os.getenv("WEAVIATE_URL")
 wcs_api_key = os.getenv("WEAVIATE_API_KEY")
 
-doc_loader = PyPDFLoader("yourdocuments.pdf")
+doc_loader = PyPDFLoader("your_documents.pdf")
 pdf_page = doc_loader.load()
 text = "\n".join(doc.page_content for doc in pdf_page)
 
