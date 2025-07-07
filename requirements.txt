@@ -1,0 +1,13 @@
+langchain
+langchain-community   #langchain ile entegre olan açık kaynaklı bileşenler
+langchain-core
+langchain-google-genai
+langchain-text-splitters #metinleri bölmek,RAG kullanmak veya uzun metin işlemeye yarar
+google-generativeai
+pypdf
+python-dotenv
+weaviate-client
+
+
+
+
